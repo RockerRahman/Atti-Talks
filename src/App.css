@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -23,6 +25,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+html, body, #root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  flex: 1;
+}
+
+.content {
+  background: #fff;
+  padding: 24px;
+  margin: 0 auto;
+  max-width: 1200px; /* Optional: Limit content width */
+}
+
+.centered-card {
+  max-width: 400px;
+  width: 100%;
+}
+
 
 .App-link {
   color: #61dafb;
